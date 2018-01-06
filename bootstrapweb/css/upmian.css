@@ -1,0 +1,96 @@
+html,
+body {
+  width: 100%;
+  height: 100%;
+  padding: 10px 0 128px 0px;
+  font-size: 12px;
+  font-family: "微软雅黑";
+  
+}
+input:focus { outline: none; } 
+input,button {outline:none;}
+.clearfix:after{content:".";display:block;height:0;clear:both;visibility:hidden;font-size: 0; }
+.clearfix{*+height:1%;}
+.clearfix{overflow:hidden;_zoom:1;}
+.cont {
+  background: #fff;
+  margin: 0 15px;
+}
+.cont h4 {
+	margin: 0 auto;
+	width: 40%;
+	height: 60px;
+	line-height: 60px;
+	text-align: center;
+	border-radius: 5px;
+  font-size: 18px;
+  padding-left: 15px;
+  background: #F8FAFD;
+  border-bottom:5px solid #31c2d5 ;
+  border-radius: 10px;
+  color: #329DE7;
+}
+/*选项卡*/
+/*.tab-menu{background: red;}*/
+.tab-menu ul {
+  background:#F8FAFD;
+}
+.tab-menu ul li{
+	float: left;
+	font-size: 14px;
+	width:100px ;
+	height: 38px;
+	line-height:38px ;
+	margin-left: 24px;
+	text-align: center;
+	cursor: pointer;
+	background: #e7faf9;
+	border-radius: 10px;
+}
+.tab-menu ul li.selected{
+	color: #329DE7;
+	cursor: pointer;
+	border-bottom: 4px solid #31c2d5;
+}
+/*queryhtml隐藏显示*/
+.tab-box div.queryhtml{
+	display: none;
+}
+
+/*上传页*/
+.uphtml{padding-bottom: 100px}
+.form_name{
+	line-height: 35px;
+    font-size: 13px;
+    font-weight: normal;
+}
+.btn_input {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    opacity: 0;
+}
+
+/*查询页*/
+
+.hidden1{display: none;}
+.table{text-align: center;}
+.table tbody tr:nth-child(odd){background: #fff}
+.table tbody tr:nth-child(even){background: #e7faf9;}
+.table thead tr th{
+	background: #e7faf9;
+	font-size: 14px;
+	height: 40px;
+	line-height: 40px;
+	font-weight: bold;
+	text-align: center;
+}
+
+.fanye{width: 20%;float: right;height: 30px;line-height: 30px;font-size: 12px;}
+.fanye_word{width: 50%;float: left;text-align: center;}
+.prev_btn{margin-right: 5px;}
+.next_btn,.prev_btn{cursor: pointer;}
+/*.a_btn{margin:0px 5px;cursor: pointer;}*/
+.btn-xs{color: #006DCC}
